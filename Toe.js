@@ -11,17 +11,31 @@ let sec = document.querySelector('section');
 let res = document.querySelector('#reset');
 let tit = document.querySelector('#tit');
 let but = document.querySelectorAll('.but');
+let theme = document.querySelector('#theme');``
+let mod = document.querySelector('#mode');
 
 let board = [['-','-','-'],['-','-','-'],['-','-','-']];
 let i = 0;
 let p1 = [];
 let p2 = [];
 let end = false;
+let mode = "dark";
 tit.classList.add('tit_p1');
 sec.classList.add('sec_p1');
 but.forEach((b) => {
     b.classList.add('but_p1');
 })
+mod.innerText = "L I G H T"
+
+function light(){
+    theme.href = "Tac.css";
+    mod.innerText = "L I G H T";
+}
+
+function dark(){
+    theme.href = "Toc.css";
+    mod.innerText = "D A R K";
+}
 
 function p_1(){
     tit.classList.remove('tit_p2')
@@ -34,6 +48,7 @@ function p_1(){
     })
     res.classList.remove('rst_p2');
     res.classList.add('rst_p1');
+    res.innerText = "R E S E T";
 }
 
 function p_2(){
@@ -47,6 +62,7 @@ function p_2(){
     })
     res.classList.remove('rst_p1');
     res.classList.add('rst_p2');
+    res.innerText = "R E S E T";
 }
 
 function check(){
@@ -256,6 +272,7 @@ res.addEventListener('click',function(){
     res.classList.remove('rst_p2');
     res.classList.remove('w_p2');
     res.classList.remove('w_p1');
+    res.innerText = "";
 });
 
 b1.addEventListener('click',function(){
@@ -489,5 +506,16 @@ b9.addEventListener('click',function(){
     if(i===9){
         res.classList.add('w_p1');
         p_1();
+    }
+})
+
+mod.addEventListener('click',function(){
+    if(mode==="dark"){
+        mode = "light";
+        dark();
+    }
+    else{
+        mode = "dark";
+        light();
     }
 })

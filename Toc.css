@@ -2,7 +2,7 @@ body{
     text-align: center;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     display:block;
@@ -41,20 +41,20 @@ div{
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
     transition: .2s;
     border-width: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-size: 80px;
 }
 
 .but_p1{
     transition: .2s;
-    color: rgb(123, 255, 0);
-    border-color: rgba(123, 255, 0, 0.253);
+    color: rgb(11, 0, 112);
+    border-color: rgba(11, 0, 112, 0.253);
 }
 
 .but_p2{
     transition: .2s;
-    color: rgb(255, 0, 234);
-    border-color: rgba(255, 0, 234, 0.253);
+    color: rgb(84, 0, 0);
+    border-color: rgba(84, 0 ,0, 0.253);
 }
 
 #b1{
@@ -80,65 +80,66 @@ div{
     display: block;
     height: 60px;
     margin-top: 60px;
-    background-color: black;
+    background-color: white;
     font-size: 25px;
     font-weight: 100;
     justify-content: center;
     transition: .2s;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
 }
 
 .tit_p1{
     transition: .2s;
-    color:rgb(123, 255, 0);
-    text-shadow: 0px 0px 20px rgb(123, 255, 0);
+    color:rgb(11, 0, 112);
+    text-shadow: 0px 0px 20px rgb(8, 0, 83);
 }
+
 
 .tit_p2{
     transition: .2s;
-    color:rgb(255, 0, 234);
-    text-shadow: 0px 0px 20px rgb(255, 0, 234);
+    color:rgb(84,0,0);
+    text-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
 .sec_p1{
     transition: .2s;
-    box-shadow: 0px 0px 20px rgb(123, 255, 0);
+    box-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
 .sec_p2{
     transition: .2s;
-    box-shadow: 0px 0px 20px rgb(255, 0, 234);
+    box-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
 .win_p1{
-    box-shadow: 0px 0px 20px rgb(123, 255, 0) inset;
-    text-shadow: 0px 0px 20px rgb(123, 255, 0);
+    box-shadow: 0px 0px 20px rgb(11, 0, 112) inset;
+    text-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
 .win_p2{
-    box-shadow: 0px 0px 20px rgb(255, 0, 234) inset;
-    text-shadow: 0px 0px 20px rgb(255, 0, 234);
+    box-shadow: 0px 0px 20px rgb(84,0,0) inset;
+    text-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
 .rst_p1{
     transition: .2s;
-    color: rgb(123, 255, 0);
+    color: rgb(11, 0, 112);
 }
 
 .rst_p2{
     transition: .2s;
-    color: rgb(234, 0, 255);
+    color: rgb(84,0,0);
 }
 
 .w_p1{
     transition: .2s;
-    box-shadow: 0px 0px 20px rgb(123, 255, 0);
+    box-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
 .w_p2{
     transition: .2s;
-    box-shadow: 0px 0px 20px rgb(234, 0, 255);
+    box-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
 .but:hover{
@@ -157,12 +158,12 @@ div{
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: white;
+    background-color: black;
     width: 25px;
     height: 25px;
     border: none;
     border-radius: 50%;
-    color: white;
+    color: black;
 }
 
 #mode:hover{
@@ -172,5 +173,5 @@ div{
     width: 90px;
     height: 25px;
     border-radius: 12.5px;
-    color: black;
+    color: white;
 }
