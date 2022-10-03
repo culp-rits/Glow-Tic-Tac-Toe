@@ -1,6 +1,6 @@
 # Glow-Tic-Tac-Toe
-A 2-Player Tic-Tac-Toe Web Application 
+Tic-Tac-Toe - Web Application 
 
-A 3-hr project that I leisurely took to evaluate my HTML, CSS, Javascript skills.
-Simple Tic-Tac-Toe supporting Dark/Light modes with a Responsive Design and Well Defined Transitions built using HTML and CSS.
-Working of game coded entirely with Vanilla Javascript with a Logic of my own.
+A 2-player Tic-Tac-Toe game built using HTML, CSS and VanillaJs.
+It has 2 Themes, Dark-mode & Light-mode with a Responsive Design and Well Defined Transitions.
+Game works on a Logic completely written by myself.
