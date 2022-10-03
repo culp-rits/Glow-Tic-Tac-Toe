@@ -10,28 +10,28 @@ body{
 
 #tit{
     margin: auto;
-    margin-top: 90px;
-    margin-bottom: 90px;
-    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 540px;
     font-weight: lighter;
     display: block;
     transition: .2s;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 button{
     font-family: 'poppins',sans-serif;
     font-style: italic;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: none;
 }
 
 section{
     margin: auto;
-    width: 600px;
-    height: 600px;
-    border-radius: 20px;
+    width: 540px;
+    height: 540px;
+    border-radius: 18px;
 }
 
 div{
@@ -42,7 +42,7 @@ div{
     transition: .2s;
     border-width: 2px;
     background-color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .but_p1{
@@ -58,34 +58,34 @@ div{
 }
 
 #b1{
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 18px 0px 0px 0px;
 }
 
 #b3{
-    border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 18px 0px 0px;
 }
 
 #b7{
-    border-radius: 0px 0px 0px 20px;
+    border-radius: 0px 0px 0px 18px;
 }
 
 #b9{
-    border-radius: 0px 0px 20px 0px;
+    border-radius: 0px 0px 18px 0px;
 }
 
 #reset{
     transition: .2s;
     margin: auto;
-    width: 150px;
+    width: 120px;
     display: block;
-    height: 60px;
-    margin-top: 60px;
+    height: 50px;
+    margin-top: 100px;
     background-color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
     justify-content: center;
     transition: .2s;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
 }
 
@@ -156,22 +156,21 @@ div{
     font-size: 1px;
     transition: .2s;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     background-color: black;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border: none;
     border-radius: 50%;
     color: black;
 }
 
 #mode:hover{
-    font-style: bold;
-    font-size: 13px;
+    font-size: 10px;
     transition: .2s;
-    width: 90px;
-    height: 25px;
-    border-radius: 12.5px;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
     color: white;
 }
