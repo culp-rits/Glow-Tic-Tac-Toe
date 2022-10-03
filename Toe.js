@@ -78,7 +78,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p1.find(i=>i===4)!==undefined){
+            if(p1.find(i=>i===4)!==undefined){
                 if(p1.find(i=>i===7)!==undefined){
                     b1.classList.add('win_p1');
                     b4.classList.add('win_p1');
@@ -88,7 +88,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p1.find(i=>i===5)!==undefined){
+            if(p1.find(i=>i===5)!==undefined){
                 if(p1.find(i=>i===9)!==undefined){
                     b1.classList.add('win_p1');
                     b5.classList.add('win_p1');
@@ -110,7 +110,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p1.find(i=>i===2)!==undefined){
+            if(p1.find(i=>i===2)!==undefined){
                 if(p1.find(i=>i===8)!==undefined){
                     b5.classList.add('win_p1');
                     b2.classList.add('win_p1');
@@ -120,7 +120,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p1.find(i=>i===3)!==undefined){
+            if(p1.find(i=>i===3)!==undefined){
                 if(p1.find(i=>i===7)!==undefined){
                     b5.classList.add('win_p1');
                     b3.classList.add('win_p1');
@@ -142,7 +142,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p1.find(i=>i===3)!==undefined){
+            if(p1.find(i=>i===3)!==undefined){
                 if(p1.find(i=>i===6)!==undefined){
                     b9.classList.add('win_p1');
                     b3.classList.add('win_p1');
@@ -166,7 +166,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p2.find(i=>i===4)!==undefined){
+            if(p2.find(i=>i===4)!==undefined){
                 if(p2.find(i=>i===7)!==undefined){
                     b1.classList.add('win_p2');
                     b4.classList.add('win_p2');
@@ -176,7 +176,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p2.find(i=>i===5)!==undefined){
+            if(p2.find(i=>i===5)!==undefined){
                 if(p2.find(i=>i===9)!==undefined){
                     b1.classList.add('win_p2');
                     b5.classList.add('win_p2');
@@ -198,7 +198,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p2.find(i=>i===2)!==undefined){
+            if(p2.find(i=>i===2)!==undefined){
                 if(p2.find(i=>i===8)!==undefined){
                     b5.classList.add('win_p2');
                     b2.classList.add('win_p2');
@@ -208,7 +208,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p2.find(i=>i===3)!==undefined){
+            if(p2.find(i=>i===3)!==undefined){
                 if(p2.find(i=>i===7)!==undefined){
                     b5.classList.add('win_p2');
                     b7.classList.add('win_p2');
@@ -230,7 +230,7 @@ function check(){
                     end = true;
                 }
             }
-            else if(p2.find(i=>i===3)!==undefined){
+            if(p2.find(i=>i===3)!==undefined){
                 if(p2.find(i=>i===6)!==undefined){
                     b9.classList.add('win_p2');
                     b6.classList.add('win_p2');
