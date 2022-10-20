@@ -1,3 +1,4 @@
+/*for the entire page*/
 body{    
     text-align: center;
     font-style: italic;
@@ -8,6 +9,7 @@ body{
     display:block;
 }
 
+/*for the title*/
 #tit{
     margin: auto;
     margin-top: 100px;
@@ -19,6 +21,7 @@ body{
     font-size: 50px;
 }
 
+/*for the all the buttons*/
 button{
     font-family: 'poppins',sans-serif;
     font-style: italic;
@@ -27,6 +30,7 @@ button{
     margin: none;
 }
 
+/*for the board*/
 section{
     margin: auto;
     width: 540px;
@@ -34,10 +38,12 @@ section{
     border-radius: 18px;
 }
 
+/*for the row*/
 div{
     display: flex;
 }
 
+/*for all the cells*/
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
     transition: .2s;
     border-width: 2px;
@@ -45,34 +51,41 @@ div{
     font-size: 70px;
 }
 
+/*for player1 turn*/
 .but_p1{
     transition: .2s;
     color: rgb(11, 0, 112);
     border-color: rgba(11, 0, 112, 0.253);
 }
 
+/*for player2 turn*/
 .but_p2{
     transition: .2s;
     color: rgb(84, 0, 0);
     border-color: rgba(84, 0 ,0, 0.253);
 }
 
+/*top left button*/
 #b1{
     border-radius: 18px 0px 0px 0px;
 }
 
+/*top left button*/
 #b3{
     border-radius: 0px 18px 0px 0px;
 }
 
+/*bottom left button*/
 #b7{
     border-radius: 0px 0px 0px 18px;
 }
 
+/*bottom right button*/
 #b9{
     border-radius: 0px 0px 18px 0px;
 }
 
+/*for the reset button*/
 #reset{
     transition: .2s;
     margin: auto;
@@ -89,69 +102,81 @@ div{
     border: none;
 }
 
+/*title for player1*/
 .tit_p1{
     transition: .2s;
     color:rgb(11, 0, 112);
     text-shadow: 0px 0px 20px rgb(8, 0, 83);
 }
 
-
+/*title for player2*/
 .tit_p2{
     transition: .2s;
     color:rgb(84,0,0);
     text-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
+/*board for player1*/
 .sec_p1{
     transition: .2s;
     box-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
+/*board for player2*/
 .sec_p2{
     transition: .2s;
     box-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
+/*highlighting winning cells of player1*/
 .win_p1{
     box-shadow: 0px 0px 20px rgb(11, 0, 112) inset;
     text-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
+/*highlighting winning cells of player2*/
 .win_p2{
     box-shadow: 0px 0px 20px rgb(84,0,0) inset;
     text-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
+/*reset for player1*/
 .rst_p1{
     transition: .2s;
     color: rgb(11, 0, 112);
 }
 
+/*reset for player2*/
 .rst_p2{
     transition: .2s;
     color: rgb(84,0,0);
 }
 
+/*highlighting board for player1*/
 .w_p1{
     transition: .2s;
     box-shadow: 0px 0px 20px rgb(11, 0, 112);
 }
 
+/*highlighting board for player2*/
 .w_p2{
     transition: .2s;
     box-shadow: 0px 0px 20px rgb(84,0,0);
 }
 
+/*for all cell - hover*/
 .but:hover{
     transition: .2s;
     box-shadow: 0px 0px 20px inset;
 }
 
+/*for reset button hover*/
 #reset:hover{
     transition: .2s;
     text-shadow: 0px 0px 10px;
 }
 
+/*for dark/light mode button*/
 #mode{
     font-size: 1px;
     transition: .2s;
@@ -166,6 +191,7 @@ div{
     color: black;
 }
 
+/*hovering dark/light mode button*/
 #mode:hover{
     font-size: 10px;
     transition: .2s;

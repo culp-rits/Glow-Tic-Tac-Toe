@@ -1,3 +1,4 @@
+//initializing all DOM variables
 let b1 = document.querySelector('#b1');
 let b2 = document.querySelector('#b2');
 let b3 = document.querySelector('#b3');
@@ -14,12 +15,15 @@ let but = document.querySelectorAll('.but');
 let theme = document.querySelector('#theme');``
 let mod = document.querySelector('#mode');
 
+//initializing the required variables
 let board = [['-','-','-'],['-','-','-'],['-','-','-']];
 let i = 0;
 let p1 = [];
 let p2 = [];
 let end = false;
 let mode = "dark";
+
+//initializing the required css classes
 tit.classList.add('tit_p1');
 sec.classList.add('sec_p1');
 but.forEach((b) => {
@@ -27,16 +31,19 @@ but.forEach((b) => {
 })
 mod.innerText = "L I G H T"
 
+//switching to light mode
 function light(){
     theme.href = "Tac.css";
     mod.innerText = "L I G H T";
 }
 
+//switching to dark mode
 function dark(){
     theme.href = "Toc.css";
     mod.innerText = "D A R K";
 }
 
+//switching to player1
 function p_1(){
     tit.classList.remove('tit_p2')
     tit.classList.add('tit_p1')
@@ -51,6 +58,7 @@ function p_1(){
     res.innerText = "R E S E T";
 }
 
+//switching to player2
 function p_2(){
     tit.classList.remove('tit_p1')
     tit.classList.add('tit_p2')
@@ -65,6 +73,7 @@ function p_2(){
     res.innerText = "R E S E T";
 }
 
+//checking if someone has won and showing the user
 function check(){
     if(p1.length > 2){
         if(p1.find(i=>i===1)!==undefined){
@@ -244,6 +253,7 @@ function check(){
     }
 }
 
+//resetting the board for a new game
 res.addEventListener('click',function(){
     board = [['-','-','-'],['-','-','-'],['-','-','-']];
     i = 0;
@@ -275,6 +285,7 @@ res.addEventListener('click',function(){
     res.innerText = "";
 });
 
+//choosing [1,1] as the move
 b1.addEventListener('click',function(){
     if(end===false){
         if(board[0][0]==='-'){
@@ -301,6 +312,7 @@ b1.addEventListener('click',function(){
     }
 })
 
+//choosing [1,2] as the move
 b2.addEventListener('click',function(){
     if(end===false){
         if(board[0][1]==='-'){
@@ -327,6 +339,7 @@ b2.addEventListener('click',function(){
     }
 })
 
+//choosing [1,3] as the move
 b3.addEventListener('click',function(){
     if(end===false){
         if(board[0][2]==='-'){
@@ -353,6 +366,7 @@ b3.addEventListener('click',function(){
     }
 })
 
+//choosing [2,1] as the move
 b4.addEventListener('click',function(){
     if(end===false){
         if(board[1][0]==='-'){
@@ -379,6 +393,7 @@ b4.addEventListener('click',function(){
     }
 })
 
+//choosing [2,2] as the move
 b5.addEventListener('click',function(){
     if(end===false){
         if(board[1][1]==='-'){
@@ -405,6 +420,7 @@ b5.addEventListener('click',function(){
     }
 })
 
+//choosing [2,3] as the move
 b6.addEventListener('click',function(){
     if(end===false){
         if(board[1][2]==='-'){
@@ -431,6 +447,7 @@ b6.addEventListener('click',function(){
     }
 })
 
+//choosing [3,1] as the move
 b7.addEventListener('click',function(){
     if(end===false){
         if(board[2][0]==='-'){
@@ -457,6 +474,7 @@ b7.addEventListener('click',function(){
     }
 })
 
+//choosing [3,2] as the move
 b8.addEventListener('click',function(){
     if(end===false){
         if(board[2][1]==='-'){
@@ -483,6 +501,7 @@ b8.addEventListener('click',function(){
     }
 })
 
+//choosing [3,3] as the move
 b9.addEventListener('click',function(){
     if(end===false){
         if(board[2][2]==='-'){
@@ -509,6 +528,7 @@ b9.addEventListener('click',function(){
     }
 })
 
+//switching to light/dark mode
 mod.addEventListener('click',function(){
     if(mode==="dark"){
         mode = "light";
