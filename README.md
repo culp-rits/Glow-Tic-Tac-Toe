@@ -1,4 +1,4 @@
-# Glow-Tic-Tac-Toe
+# GlowTic-Tac-Toe
 
 <br>
 A classic 2-Player Tic-Tac-Toe game built using
